@@ -1,4 +1,4 @@
-const path = "../../samples.json";
+const path = "samples.json";
 
 function charting() {
     d3.json(path).then(function(data) {
